@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <style>
+/* Custom media query */
+@media (min-width: 400px) {
+.custom-bg {
+background-color: aqua;
+}
+}
+
+@media (min-width: 600px) {
+.custom-bg {
+background-color: purple;
+}
+}
+
+@media (min-width: 800px) {
+.custom-bg {
+background-color: lime;
+}
+}
+
+@media (min-width: 1000px) {
+.custom-bg {
+background-color: whitesmoke;
+}
+}
+
+@media (min-width: 1200px) {
+.custom-bg {
+background-color: pink;
+}
+}
+
+@media (min-width: 1400px) {
+.custom-bg {
+background-color: yellow;
+}
+}
+
+@media (min-width: 1500px) {
+.custom-bg {
+background-color: teal;
+}
+}
+</style>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    <h1 class="text-primary",class="text-center">the first code</h1>
+    <h1 class="text-success">muaz,hamza,izedin,selehadin</h1>
+    <h3 class="text-secondary">we are group-3</h3>
+    <h2 class="text-danger">the name of the group</h2>
+    <button class="btn-primary">start</button>
+
+<form class="">
+        <fieldset class="bg-info">
+
+        <legend class="text-danger text-center font-monospace fs-3">Students Registration Form</legend>
+
+            <p class="ms-5"><lable class="fs-4">First Name:</lable><input type="text" name="name" class="rounded border-primary" placeholder="Enter Your First Name" autofocus required></p><br>
+
+            <p class="ms-5"><lable class="fs-4">Last Name:</lable><input type="text" name="name" class="rounded border-primary" placeholder="Enter Your Last Name" required></p><br>
+
+            <p class="ms-5"><lable class="fs-4">&nbsp;&nbsp;Password:</lable><input type="password" name="password" class="rounded border-primary" placeholder="********" required minlength="6" maxlength="8"></p><br>
+
+            <p class="ms-5"><lable class="fs-4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Email:</lable><input type="email" name="email" class="rounded border-primary" placeholder="Example@gmail.com" required></p><br>
+
+            <p class="ms-5"><lable class="fs-4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Birthday:</lable><input type="date" max="2008-01-01" min="2004-01-01" name="birthday" class="rounded border-primary" required></p><br>
+
+            <p class="ms-5 fs-4">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Gender: Male<input type="radio" name="gender" required><br>
+            <lable class="ms-5">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Female</lable><input type="radio" name="gender" required></p><br>
+
+
+            <p class="ms-5"><lable class="fs-4">Grade & Sec:</lable><input type="text" name="grade" class="rounded border-primary" placeholder="9,10,11,&12" required></p><br>
+
+            <p class="ms-5"><lable class="fs-4">&nbsp; &nbsp; &nbsp; &nbsp; Region:</lable><input type="text" name="region" class="rounded border-primary" placeholder="Addis Ababa" required></p><br>
+
+            <p class="ms-5"><lable class="fs-4">&nbsp; &nbsp; &nbsp; &nbsp; Phone:</lable><input type="number" name="tel" class="rounded border-primary"placeholder="+251977****56" required></p><br>
+
+            <p class="text-center"><input type="Submit" name="Submit" class="btn btn-success fs-5">
+            <input type="Reset" name="Reset" class="btn btn-danger fs-5"></p>
+
+        </fieldset>
+    </form>
+
+<body class="bg-secondary">
+<div class="container">
+<div class="row">
+<div class="col text-danger bg-info">English</div>
+<div class="col text-primary bg-danger">Math</div>
+<div class="col text-secondary bg-warning">Chemistry</div>
+<div class="col text-success bg-light">Biology</div>
+<div class="col text-light">Physics</div>
+<div class="col text-dark bg-secondary">History</div>
+<div class="col text-info bg-dark">Geography</div>
+<div class="col text-warning">Economics</div>
+<div class="col text-light bg-dark">SAT</div>
+<div class="col text-">Civics</div>
+<div class="col text-light bg-success">ICT</div>
+<div class="col text-danger bg-dark">Arts</div>
+</div>
+
+<div class="row">
+<div class="col-4 text-warning bg-success"> 1 </div>
+<div class="col-2 bg-light"> 2 </div>
+<div class="col-2 bg-warning"> 3 </div>
+<div class="col-2 text-warning bg-secondary"> 4 </div>
+<div class="col-2 text-light bg-danger"> 5 </div>
+</div>
+</div>
+
+
+
+<div class="container mt-5">
+<div class="custom-bg p-3">
+This section changes color based on screen width.
+</div>
+</div>
+
+<div class="container bg-danger">
+<div class="row">
+<div class="col-sm-2">English</div>
+<div class="col-sm-2">Math</div>
+<div class="col-sm-2">Chemistry</div>
+<div class="col-sm-2">Biology</div>
+<div class="col-sm-2">Physics</div>
+<div class="col-sm-2">History</div>
+</div>
+</div>
+
+<div class="container bg-info">
+<div class="row">
+<div class="col-6 col-sm-2">English</div>
+<div class="col-6 col-sm-2">Math</div>
+<div class="col-6 col-sm-2">Chemistry</div>
+<div class="col-6 col-sm-2">Biology</div>
+<div class="col-6 col-sm-2">Physics</div>
+<div class="col-6 col-sm-2">History</div>
+</div>
+
+</div>
+<div class="container bg-success">
+<div class="row">
+<div class="col-6 col-sm-4 col-md-2">English</div>
+<div class="col-6 col-sm-4 col-md-2">Math</div>
+<div class="col-6 col-sm-4 col-md-2">Chemistry</div>
+<div class="col-6 col-sm-4 col-md-2">Biology</div>
+<div class="col-6 col-sm-4 col-md-2">Physics</div>
+<div class="col-6 col-sm-4 col-md-2">History</div>
+</div>
+
+</div>
+<div class="container mt-5">
+<div class="row">
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+<div class="bg-primary text-white p-3">Column 1</div>
+</div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+<div class="bg-secondary text-white p-3">Column 2</div>
+</div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+<div class="bg-success text-white p-3">Column 3</div>
+</div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+<div class="bg-danger text-white p-3">Column 4</div>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
